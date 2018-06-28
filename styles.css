@@ -1,0 +1,128 @@
+.basicInfo {
+  background-image: url("./images/bg.jpg");
+  background-size: 100% 100%;
+  height: 80vh;
+  /* display: inline-flex; */
+}
+.navbar {
+  padding-top: 5vh;
+}
+
+.nav-link {
+  font-weight: bolder;
+}
+#intro {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 25vh;
+}
+
+.basic {
+  padding-right: 1vh;
+  padding-left: 3vh;
+}
+#logo {
+  height: 45;
+}
+#name {
+  color: aliceblue;
+  font-size: 19px;
+  font-weight: bolder;
+}
+#caption {
+  color: aliceblue;
+  font-size: 10px;
+  font-weight: bold;
+}
+.heading{
+  border-bottom : 1px solid red;
+  width:50vw;
+}
+.projectDetails {
+  padding-top: 2vh;
+  /* background-color: rgb(127, 201, 127); */
+}
+ 
+.Icolor {
+  color: rgb(241, 12, 50)
+}
+.alert-heading {
+  font-style: italic;
+  font-weight: bold;
+}
+.contactIcons .icons {
+  display: inline-block
+}
+
+.footer {
+	bottom: 0;
+	width:100%;
+	height: 60px;
+	line-height: 50px;
+	background-color:#f5f5f5;
+	margin-top:35vh;
+}
+
+.first-alphabet-Large::first-letter {
+  font-size:2rem;
+  font-weight: bold;
+  color: green;
+  margin-left : 2vw;
+}
+
+.active {
+  border-bottom :3px solid orange;
+}
+
+.aboutInfo {
+  font-style: italic;
+}
+
+.hobbies {
+  display:  inline-flex
+}
+.list-group-item {
+  font-weight: bold;
+}
+
+/* Return to top */
+#scrollTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#scrollTop i {
+  color: #fff;
+  margin: 0;
+  position: relative;
+  left: 16px;
+  top: 13px;
+  font-size: 19px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#scrollTop:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+#scrollTop:hover i {
+  color: #fff;
+  top: 5px;
+}
