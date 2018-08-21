@@ -1,4 +1,6 @@
 $(document).ready(() => {
+
+
   var $nav = $(".navbar");
   var $info = $(".basicInfo");
   if ($(this).scrollTop() > $info.height() - 80) {
@@ -70,4 +72,5 @@ $(document).ready(() => {
       500
     );
   });
+
 });

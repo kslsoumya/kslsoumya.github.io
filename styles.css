@@ -5,7 +5,8 @@
   /* display: inline-flex; */
 }
 .navbar {
-  padding-top: 5vh;
+  padding-top: 3vh;
+  padding-bottom: 2vh;
 }
 
 .nav-link {
@@ -49,6 +50,15 @@
 .alert-heading {
   font-style: italic;
   font-weight: bold;
+}
+
+.alert:hover{
+  transform: scale(1.02);
+
+}
+.symbols:hover {
+  transform: scale(1.02);
+
 }
 .contactIcons .icons {
   display: inline-block
@@ -105,6 +115,7 @@
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
+  z-index: 2;
 }
 #scrollTop i {
   color: #fff;
@@ -125,4 +136,8 @@
 #scrollTop:hover i {
   color: #fff;
   top: 5px;
+}
+
+.personalInfo {
+  text-align: center
 }
